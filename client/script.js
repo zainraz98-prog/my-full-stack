@@ -2,7 +2,7 @@ const btn = document.getElementById('fetchBtn');
 const output = document.getElementById('output');
 
 // Replace this with your actual Vercel Backend URL later
-const API_URL = "https://your-backend-project.vercel.app/api/index.php";
+const API_URL = "https://my-full-stack-six.vercel.app/";
 
 btn.addEventListener('click', async () => {
     output.innerText = "Loading...";
